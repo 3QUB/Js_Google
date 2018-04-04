@@ -57,13 +57,11 @@ a:hover {
 #bar{
   height: 35px;
   width: 300px;
+  justify-content: flex-start
 }
 
 #micro{
   display: block;
   width: 20%;
   height: auto;
-  position: absolute;
-  top: 0px;
-  left: 0px;
 }
