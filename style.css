@@ -49,3 +49,18 @@ a:hover {
   width: 65%;
   height: auto;
 }
+.search-bar{
+  flex-direction: row;
+  width: 800px;
+}
+
+#bar{
+  height: 35px;
+  width: 300px;
+}
+
+#micro{
+  display: block;
+  width: 20%;
+  height: auto;
+}
