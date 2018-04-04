@@ -131,7 +131,7 @@ footer{
 }
 
 input {
-  background-image: url('img/small_micro.png' title="Utiliser la recherche vocale");
+  background-image: url('img/small_micro.png');
   background-repeat: no-repeat;
   background-position: right;
   margin: 10px;
