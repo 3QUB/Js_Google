@@ -59,11 +59,6 @@ a:hover {
   width: 500px;
 }
 
-#micro{
-  display: block;
-  width: 20%;
-  height: auto;
-}
 
 .search-button button {
   border-radius: 2px;
@@ -86,20 +81,28 @@ a:hover {
 
 footer{
   background-color: #F2F2F2;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  border-top: 1px solid;
+  border-top-color: #e4e4e4;
 }
 
 .footer-1{
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+  margin: 15px;
+  color: #454545;
 }
 
 .footer-2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  margin: 15px;
 }
+
 
 .footer-left{
   display: flex;
@@ -119,4 +122,11 @@ footer{
 .footer-right p{
   margin-left: 5px;
   margin-right: 5px;
+}
+
+input {
+  background-image: url('img/small_micro.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 5px;
 }
