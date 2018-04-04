@@ -16,7 +16,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 5px;
+  align-items: center;
 }
 
 .icon-top-right{
@@ -92,15 +92,17 @@ footer{
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  margin: 15px;
   color: #454545;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #d2d2d2a2
 }
 
 .footer-2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 15px;
+  line-height: 10px;
 }
 
 
@@ -110,8 +112,8 @@ footer{
 }
 
 .footer-left p{
-  margin-left: 5px;
-  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .footer-right{
@@ -120,8 +122,8 @@ footer{
 }
 
 .footer-right p{
-  margin-left: 5px;
-  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 input {
