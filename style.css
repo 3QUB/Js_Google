@@ -1,0 +1,51 @@
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+a:link{
+  color: #454545;
+  text-decoration: none;
+}
+a:hover {
+  color: #454545c0;
+  text-decoration: underline;
+}
+
+#flex-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 5px;
+}
+
+.icon-top-right{
+  margin: 15px;
+}
+.icon-menu img{
+  height: 30px;
+  width: 30px;
+}
+
+#flex-right button {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  color: #FFFFFF;
+  font-size: 1em;
+  padding: 8px;
+}
+
+#flex-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#flex-center img {
+  display: block;
+  margin: auto;
+  width: 65%;
+  height: auto;
+}
