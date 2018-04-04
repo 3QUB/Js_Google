@@ -17,6 +17,7 @@ a:hover {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  font-size: 0.8em;
 }
 
 .icon-top-right{
@@ -33,7 +34,7 @@ a:hover {
   outline: none;
   background: -webkit-linear-gradient(top,#4387fd,#4683ea);
   color: #FFFFFF;
-  font-size: 1em;
+  font-size: 0.8em;
   padding: 8px;
 }
 
@@ -41,6 +42,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
 }
 
 #flex-center img {
@@ -86,6 +88,7 @@ footer{
   bottom: 0px;
   border-top: 1px solid;
   border-top-color: #e4e4e4;
+  font-size: 0.8em;
 }
 
 .footer-1{
@@ -95,6 +98,7 @@ footer{
   color: #454545;
   border-top: 1px solid;
   border-bottom: 1px solid;
+  padding-left: 5px;
   border-color: #d2d2d2a2
 }
 
@@ -127,8 +131,8 @@ footer{
 }
 
 input {
-  background-image: url('img/small_micro.png');
+  background-image: url('img/small_micro.png' title="Utiliser la recherche vocale");
   background-repeat: no-repeat;
   background-position: right;
-  margin: 5px;
+  margin: 10px;
 }
