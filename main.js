@@ -19,7 +19,6 @@ window.onload=function(){setTimeout(showPopup,10000)};
  }
 
 
-<<<<<<< HEAD
 let mySearch = document.getElementById("search-google")
 
 function redirectGoogle(){
@@ -31,7 +30,7 @@ function redirectGoogle(){
     }else if (search === "hello world"){
       window.open('https://www.google.fr/#q=hello+world');
     }else{
-      function showAlert()
+      showAlert()
   }
 } // end sayHi
 
