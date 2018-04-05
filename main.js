@@ -19,6 +19,7 @@ window.onload=function(){setTimeout(showPopup,10000)};
  }
 
 
+<<<<<<< HEAD
 let mySearch = document.getElementById("search-google")
 
 function redirectGoogle(){
@@ -42,3 +43,19 @@ function showAlert()
 mySearch.onclick = function() {
   redirectGoogle()
 }
+=======
+// // from textBoxes.html
+// function redirect Google(){
+//   var txtName = document.getElementById("bar");
+//   // var txtOutput = document.getElementById("txtOutput");
+//   var search = txtName.value;
+//   if (search === "bonjour monde"){
+
+//   }else if (search === "hello world"){
+
+//   }else{
+
+//   }
+  
+//   } // end sayHi
+>>>>>>> 03fc19171da160bf8b394c59e2bbb5c71b1c962d
