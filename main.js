@@ -11,6 +11,12 @@ myButton.onclick = function() {
     showelements()
 }
 
+window.onload=function(){setTimeout(showPopup,10000)};
+ 
+ function showPopup()
+ {
+    alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please")
+ }
 
 
 let mySearch = document.getElementById("search-google")
