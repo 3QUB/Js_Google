@@ -10,3 +10,20 @@ function showelements() {
 myButton.onclick = function() {
     showelements()
 }
+
+
+
+// // from textBoxes.html
+// function redirect Google(){
+//   var txtName = document.getElementById("bar");
+//   // var txtOutput = document.getElementById("txtOutput");
+//   var search = txtName.value;
+//   if (search === "bonjour monde"){
+
+//   }else if (search === "hello world"){
+
+//   }else{
+
+//   }
+  
+//   } // end sayHi
