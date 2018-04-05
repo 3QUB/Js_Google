@@ -71,6 +71,10 @@ a:hover {
   font-size: 1em;
 }
 
+.search-button{
+  display:flex;
+  justify-content: center;
+}
 
 .search-button button {
   border-radius: 2px;
@@ -159,4 +163,8 @@ input:hover {
   border: 1px solid #c6c6c6;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
   color: #222;
+}
+
+#element-center{
+  display:none;
 }
