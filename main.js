@@ -12,12 +12,14 @@ myButton.onclick = function() {
 }
 
 window.onload=function(){setTimeout(showPopup,10000)};
- 
+var snd = new Audio('img/sound.mp3');  
+
  function showPopup()
  {
-    alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please")
+    snd .play();
+    alert("D'abord, monte le son de ton ordinateur! Le site xxxvidsxxx est trop bien. Viens dessus en cliquant sur OK !") 
+    alert("you just got Rickrolled !")
  }
-
 
 let mySearch = document.getElementById("search-google")
 
