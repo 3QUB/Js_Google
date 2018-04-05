@@ -13,17 +13,26 @@ myButton.onclick = function() {
 
 
 
-// // from textBoxes.html
-// function redirect Google(){
-//   var txtName = document.getElementById("bar");
-//   // var txtOutput = document.getElementById("txtOutput");
-//   var search = txtName.value;
-//   if (search === "bonjour monde"){
+let mySearch = document.getElementById("search-google")
 
-//   }else if (search === "hello world"){
+function redirectGoogle(){
+  var txtSearch = document.getElementById("bar");
+  // var txtOutput = document.getElementById("txtOutput");
+  var search = txtSearch.value;
+    if (search === "bonjour monde"){
+      window.open('https://www.google.fr/#q=bonjour+monde');
+    }else if (search === "hello world"){
+      window.open('https://www.google.fr/#q=hello+world');
+    }else{
+      function showAlert()
+  }
+} // end sayHi
 
-//   }else{
+function showAlert()
+ {
+    alert("Veuillez entrer \"bonjour monde\" ou \"hello world\" sinon ca marche pô")
+ }
 
-//   }
-  
-//   } // end sayHi
+mySearch.onclick = function() {
+  redirectGoogle()
+}
