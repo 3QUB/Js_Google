@@ -3,7 +3,7 @@ html {
 }
 
 body{
-  font-family: Arial, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   margin:auto;
 }
 
@@ -27,6 +27,7 @@ a:hover {
   justify-content: flex-end;
   align-items: center;
   font-size: 0.8em;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .icon-top-right{
@@ -52,6 +53,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 #flex-center img {
@@ -68,7 +70,7 @@ a:hover {
 #bar{
   height: 35px;
   width: 500px;
-  font-family: Arial, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1em;
 }
 
@@ -118,7 +120,8 @@ footer{
   border-top: 1px solid;
   border-bottom: 1px solid;
   padding-left: 5px;
-  border-color: #d2d2d2a2
+  border-color: #d2d2d2a2;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .footer-2{
@@ -126,6 +129,7 @@ footer{
   flex-direction: row;
   justify-content: space-between;
   line-height: 10px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -174,7 +178,7 @@ input:hover {
   border: 1px solid #4285f4;
   background: -webkit-linear-gradient(top,#4387fd,#4683ea);
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1.5em;
   padding-top: 50px;
   padding-bottom: 50px;
